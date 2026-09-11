@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="task_params">
+            <field
+                name="order_state_pending"
+                type="text"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_STATE_PENDING_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_STATE_PENDING_DESC"
+                default="1"
+                required="true"
+            />
+            <field
+                name="order_state_cancelled"
+                type="text"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_STATE_CANCELLED_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_STATE_CANCELLED_DESC"
+                default="3"
+                required="true"
+            />
+            <field
+                name="payment_ids"
+                type="text"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_PAYMENT_IDS_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_PAYMENT_IDS_DESC"
+                default=""
+            />
+            <field
+                name="cancel_comment"
+                type="text"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_COMMENT_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_COMMENT_DESC"
+                default="Auto-cancelled: invoice due date exceeded"
+            />
+            <field
+                name="batch_limit"
+                type="number"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_BATCH_LIMIT_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_BATCH_LIMIT_DESC"
+                default="200"
+                min="1"
+                max="5000"
+            />
+            <field
+                name="dry_run"
+                type="radio"
+                layout="joomla.form.field.radio.switcher"
+                label="PLG_TASK_PCPINVOICECANCEL_FIELD_DRYRUN_LABEL"
+                description="PLG_TASK_PCPINVOICECANCEL_FIELD_DRYRUN_DESC"
+                default="1"
+            >
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

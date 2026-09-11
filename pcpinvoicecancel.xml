@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="task" method="upgrade">
+    <name>PLG_TASK_PCPINVOICECANCEL</name>
+    <author>LeNix Dizajn Studio</author>
+    <creationDate>2026-09-03</creationDate>
+    <copyright>Copyright (C) LeNix Dizajn Studio. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.2.0</version>
+    <description>PLG_TASK_PCPINVOICECANCEL_XML_DESCRIPTION</description>
+    <namespace path="src">LeNix\Plugin\Task\PcpInvoiceCancel</namespace>
+
+    <files>
+        <folder plugin="pcpinvoicecancel">services</folder>
+        <folder>src</folder>
+        <folder>forms</folder>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_task_pcpinvoicecancel.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_task_pcpinvoicecancel.sys.ini</language>
+        <language tag="sr-RS">language/sr-RS/sr-RS.plg_task_pcpinvoicecancel.ini</language>
+        <language tag="sr-RS">language/sr-RS/sr-RS.plg_task_pcpinvoicecancel.sys.ini</language>
+    </languages>
+</extension>
