@@ -1,3 +1,5 @@
+<img width="1733" height="907" alt="Cancel Overdue Invoice Orders" src="https://github.com/user-attachments/assets/250c24fb-9502-4b86-9bc4-8bf4d6acb24c" />
+
 # Phoca Cart – Cancel Overdue Invoice Orders (Joomla Task Plugin)
 
 A Joomla Scheduled Task plugin (`plg_task_pcpinvoicecancel`) that automatically
